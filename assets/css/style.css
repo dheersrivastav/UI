@@ -1,0 +1,179 @@
+.logo-placeholdert {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 44px;
+    padding: 0.5rem;
+    background-color: #d6d6d6;
+    color: #6b6b6b;
+    font-size: 0.875rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.avatar-placeholder {
+width: 90px;
+    height: 90px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-color: #d6d6d6;
+}
+
+.avatar-small {
+    width: 64px;
+    height: 64px;
+}
+.btn-cta {
+    display: inline-block;
+    padding: 0.6rem 1.6rem;
+    border-radius: 3px;
+    background: #111;
+    color: #fff;
+    text-decoration: none;
+    
+    font-weight: bold;
+}
+
+.email-wrap{
+    max-width: 800px;
+
+    margin: 2rem auto;
+    background: #fff;
+    border: 1px solid #cfcfcf;
+}
+
+
+
+.poc-logos {
+    display: flex;
+   gap: 0.75rem;
+
+    padding: 1rem;
+   
+}
+
+
+.poc-logos .logo-placeholder {
+    flex: 1;
+   
+}
+
+
+.poc-hero {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-between;
+    gap: 1rem;
+
+    padding: 1.75rem;
+    background: linear-gradient(135deg, #133420, #1d4c2e);
+     
+    color: #fff;
+}
+
+
+
+.poc-hero h1 {
+    font-size: 1.6rem;
+    margin: 0.15rem 0;
+}
+
+
+
+.poc-hero .kicker {
+    margin: 0;
+
+    font-size: 0.875rem;
+    font-weight: bold;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+}
+
+
+.poc-hero .subtitle {
+    margin: 0.25rem 0;
+
+}
+
+.poc-hero .meta {
+    margin: 0;
+    font-size: 0.85rem;
+    
+}
+  
+
+
+
+.poc-thumbs {
+    display: flex;
+    gap: 0.75rem;
+    
+}
+
+
+.poc-content {
+    padding: 1.25rem;
+    font-size: 0.875rem;
+}
+
+
+
+.poc-content h3 {
+    margin: 1.25rem 0 0.5rem;
+    font-size: 1.05rem;
+}
+
+
+
+.poc-cta{
+    margin: 1.5rem 0;
+    text-align: center;
+}
+
+
+.bulleet {
+   
+    padding-left: 1.25rem;
+    
+}
+
+
+.poc-speaker {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin: 1rem 0;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.pop-speaker {
+    flex: 1 1 160px;
+}
+
+
+.pop-speaker strong ,
+.pop-speaker small {
+    display: block;
+    
+}
+
+
+.pop-footer {
+    padding: 1rem;
+    font-size: 0.75rem;
+    text-align: center;
+    color: #555;
+    background: #eee;
+    text-align: center;
+
+
+}
+
+
+@media (max-width: 575.98px) {
+    .email-wrap {
+        margin: 0;
+    border:0;    }}
