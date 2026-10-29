@@ -1,82 +1,85 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Webinar Invitation </title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    </head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Webinar Invitation (Email POC)</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
 <body>
-   <div class="email-wrapper">
-    <div class="poc-logos">
+<div class="email-wrap">
+
+  <div class="poc-logos">
     <div class="logo-placeholder">LOGO 1</div>
     <div class="logo-placeholder">LOGO 2</div>
     <div class="logo-placeholder">LOGO 3</div>
+  </div>
+
+  <section class="poc-hero">
+    <div>
+      <p class="kicker">Live Webinar</p>
+      <h1>Sample Webinar Title Here:</h1>
+      <p class="subtitle">Sample Subtitle Goes Here For The Webinar Topic</p>
+      <p class="meta">January 1, 2026 · 10am PT / 1pm ET</p>
+    </div>
+    <div class="poc-thumbs" aria-hidden="true">
+      <div class="avatar-placeholder avatar-small"></div>
+      <div class="avatar-placeholder avatar-small"></div>
+    </div>
+  </section>
+
+  <section class="poc-content">
+    <p>Hello {{firstname}},</p>
+
+    <p><strong>This is the lead sub-title of the email message goes here?</strong></p>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
+
+    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+
+    <div class="poc-cta">
+      <a class="btn-cta" href="landing.html">Save My Seat</a>
     </div>
 
-    <section class="poc-hero">
-        <div> 
-            <p class="kicker">Live Webinar </p> 
-        <h1> sample webinar title here:</h1>
-    <p class="subtitle">sample subtitle goes here for the webinar description.</p>
-    <p class="meta">jan 1, 2026. 10am PT / 1pm ET</p>
-</div>
+    <h3>You'll learn</h3>
+    <ul class="bullets">
+      <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+      <li>Ut enim ad minim veniam, quis nostrud exercitation.</li>
+      <li>Duis aute irure dolor in reprehenderit in voluptate.</li>
+    </ul>
 
-<div class="poc-thumbs" aria-hidden="true">
-<div class="avatar-placeholder avatar-small"></div>
-<div class="avatar-placeholder avatar-small"></div>
-</div>
-</section>
-
-<section class="poc-content">
-   <p> Hello {{firstname}},</p>
-   <p><strong>This is the lead subtitle for the email message goeshere? </strong></p    >
-   <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-   <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-   <div class="poc-cta">
-    <a class="btn-cta" href="landing.html">Save my seats</a>
-   </div> 
-<h3>You will learn  </h3>
-<u1 class="bullets">
-<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-<li>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-<li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-</u1>
-
-
-<h3>Meet the speakers </h3>
-<div class="poc-speakers">
-    <div class="poc-speaker">
+    <h3>Meet the speakers</h3>
+    <div class="poc-speakers">
+      <div class="poc-speaker">
         <div class="avatar-placeholder avatar-small"></div>
-       <strong>Speaker Name One</strong>
-       <small>Job Title, Company name</small>
-    </div>
-    <div class="poc-speaker">
+        <strong>Speaker Name One</strong>
+        <small>Job Title, Company Name</small>
+      </div>
+      <div class="poc-speaker">
         <div class="avatar-placeholder avatar-small"></div>
-       <strong>Speaker Name Three</strong>
-       <small>Job Title, Company name</small>
-       </div>
-       </div>
-
-
-
-       <p><strong>Wednesday, January 1, 2026 | 10am PT / 1pm ET</strong></p>
-       <p>Can't attend live? and we will send u recording.</p>
-
-       <div class="poc-cta">
-        <a class="btn-cta" href="landing.html">Register now </a>
-        </div>
-        </section>
-
-
-
-
-        <footer class="poc-footer">
-            Privacy Policy | Terms of Service | Unsubscribe<br>
-            This message was sent to {{email}}
-        </footer>
+        <strong>Speaker Name Two</strong>
+        <small>Job Title, Company Name</small>
+      </div>
+      <div class="poc-speaker">
+        <div class="avatar-placeholder avatar-small"></div>
+        <strong>Speaker Name Three</strong>
+        <small>Job Title, Company Name</small>
+      </div>
     </div>
-    </body>
-    </html>
 
+    <p><strong>Wednesday, January 1, 2026 | 10am PT / 1pm ET (Recording will be provided)</strong></p>
+    <p>Can't attend live? Register and we'll send you the recording.</p>
+
+    <div class="poc-cta">
+      <a class="btn-cta" href="landing.html">Register Now</a>
+    </div>
+  </section>
+
+  <footer class="poc-footer">
+    Privacy Policy | Unsubscribe<br>
+    This message was sent to {{email}}.
+  </footer>
+
+</div>
+</body>
+</html>
